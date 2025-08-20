@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -19,6 +20,10 @@ nav{
     width: 80%;
     margin: auto;
 }
+h1{
+    text-align: center;
+    color: rgb(27, 111, 83);
+}
 p{
     padding: 3px;
 }
@@ -37,6 +42,7 @@ img{
     height: auto;
     object-fit: cover;
 }
+
 section{
     border:1px solid #dcdbdb;
     padding: 6px;
@@ -46,10 +52,10 @@ section{
 li{
     list-style: none;
     padding: 3px;
-    color: none;
-    font-size: 18px;
     margin-right: 20px;
     display: inline-block;
+    color: none;
+    font-size: 18px;
 }
 button{
     background-color: rgb(31, 113, 86);
@@ -70,8 +76,4 @@ div{
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
-}
-h1{
-    text-align: center;
-    color: rgb(27, 111, 83);
 }
